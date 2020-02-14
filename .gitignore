@@ -1,0 +1,17 @@
+# In This file you can specify which file you don't want to get added into your git repository...
+
+#Any file with *.pyc at the end will not added to git repository
+
+# Created by https://www.gitignore.io/api/django
+# Edit at https://www.gitignore.io/?templates=django
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+/media
+/static
